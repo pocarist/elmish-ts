@@ -1,0 +1,32 @@
+{
+  "name": "elmish-ts",
+  "version": "0.0.1",
+  "description": "The Elm Architecture by Typescript implementation like Elmish.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocarist/elmish-ts.git"
+  },
+  "keywords": ["Elmish", "The Elm Architecture"],
+  "author": "Kenji Tokudome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pocarist/elmish-ts/issues"
+  },
+  "homepage": "https://github.com/pocarist/elmish-ts#readme",
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "typescript": "^3.0.0"
+  }
+}
